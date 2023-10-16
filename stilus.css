@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(255, 187, 60);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#tarolo {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.tartalom {
+    text-align: center;
+}
+
+.fejlec h1 {
+    margin-top: 75px;
+}
+
+.fejlec {
+    background-image: url(./images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 15px;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.menu ul a {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.menu ul a:link {
+    background-color: orange;
+}
+
+.menu ul a:visited {
+    background-color: orange;
+}
+
+.menu ul a:hover {
+    background-color: rgb(219, 143, 0);
+}
+
+.menu ul a:active {
+    background-color: rgb(167, 108, 0);
+}
+
+.alul {
+    margin-bottom: 50px;
+}
+
+.kulon {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.kulon:link {
+    background-color: orange;
+}
+
+.kulon:visited {
+    background-color: orange;
+}
+
+.kulon:hover {
+    background-color: rgb(219, 143, 0);
+}
+
+.kulon:active {
+    background-color: rgb(167, 108, 0);
+}
+
+.kettes {
+    background-color: rgba(0, 0, 0, 0.589);
+    padding: 20px;
+}
+
+.kettes p {
+    margin-bottom: 35px;
+}
+
+.gombok ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.harmas {
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 0.2px;
+}
+
+.harmas ul {
+    text-align: left;
+}
+
+.kepek {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 25px;
+}
+
+.kepek img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.negyes {
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 0.2px;
+    border-top: 1px solid white;
+}
+
+.negyes ul {
+    text-align: left;
+}
