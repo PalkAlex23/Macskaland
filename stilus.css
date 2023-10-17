@@ -96,7 +96,11 @@ body {
 
 .kettes {
     background-color: rgba(0, 0, 0, 0.589);
+<<<<<<< HEAD
     padding: 20px;
+=======
+    padding: 10px;
+>>>>>>> 84f12e4604d38acbb9bbf729c4a2d50457303dfa
 }
 
 .kettes p {
@@ -109,6 +113,7 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+<<<<<<< HEAD
 .harmas {
     background-color: rgba(0, 0, 0, 0.76);
     padding: 0.2px;
@@ -138,4 +143,8 @@ body {
 
 .negyes ul {
     text-align: left;
+=======
+.harmas ul {
+    text-align: left;
+>>>>>>> 84f12e4604d38acbb9bbf729c4a2d50457303dfa
 }
